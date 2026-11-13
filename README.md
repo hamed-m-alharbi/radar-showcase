@@ -47,13 +47,19 @@ Every posting gets a score from 0 to 10, built from three things: how many of yo
 
 A posting with too little text stays unscored rather than getting a guess, and a score you set yourself is never overwritten.
 
+### Points out gaps, and lets you ask for a second opinion
+
+- **Flags on the card.** When a posting asks for a BI tool such as Power BI, Tableau, Looker or Qlik that is not in your profile, the card says so.
+- **Minimum fit filter.** Show only postings scored 5, 7 or 8 and above. Postings not scored yet are left out while a minimum is set.
+- **A second opinion, only when you ask.** A button on a scored card asks DeepSeek for its own score and a short reason, shown beside the rule-based one. **Pressing it sends that posting's title and description, and your listed skills, wanted job titles and years of experience, to DeepSeek's API**, after the page asks you to confirm. It is optional and needs an API key. It never changes a score by itself: the rule-based score stays until you choose to adopt the opinion, and an adopted score is then yours and is not overwritten.
+
 ### Suggests search preferences from your own words
 
 <p align="center">
   <img src="assets/search-template.png" alt="Search preferences: describe your experience, then pick cities, job titles and skills" width="78%">
 </p>
 
-Write a sentence or two about your background and the roles you want, and Radar suggests cities, job titles and skills. **This feature sends the text you type to DeepSeek's API.** It is optional: it only works if you add an API key, nothing else leaves your machine, and you should not type sensitive personal details. You review and edit every suggestion, and nothing is saved until you approve it.
+Write a sentence or two about your background and the roles you want, and Radar suggests cities, job titles and skills. **This feature sends the text you type to DeepSeek's API.** It is optional: it only works if you add an API key, and you should not type sensitive personal details. The only other thing that can reach DeepSeek is the second opinion described above, and only when you press its button. You review and edit every suggestion, and nothing is saved until you approve it.
 
 ### Follows every application, with evidence
 
@@ -77,7 +83,7 @@ The dashboard is built for phone and desktop equally. The radar, the filters and
 
 - Everything runs on your own computer, and the dashboard is reachable only from that machine.
 - Radar never signs in to a job board with your account.
-- Your data stays in your own database. The one exception is the optional DeepSeek feature above.
+- Your data stays in your own database. The exception is the two optional DeepSeek features above, both started by you: the text you type in the search preferences, and, for one posting at a time, the second opinion.
 
 ## Built with
 
