@@ -46,20 +46,20 @@ Every posting gets a score from 0 to 10, built from three things: how many of yo
 
 Nothing is a black box, and a score you set yourself is never overwritten.
 
-### Lets you describe what you want in plain words
+### Lets you describe your experience in plain words
 
 <p align="center">
-  <img src="assets/search-template.png" alt="The search template: describe what you want, then pick cities, job titles and skills" width="78%">
+  <img src="assets/search-template.png" alt="Search preferences: describe your experience, then pick cities, job titles and skills" width="78%">
 </p>
 
-Write a sentence or two about the roles you want, the cities, your skills and your experience. A language model proposes the cities, job titles and skills. You review and edit them before anything is saved. Only the text you type is sent, and nothing is stored until you approve it.
+Write a sentence or two about your background and the roles you want. A language model suggests the cities, job titles and skills for your search preferences. You review and edit them before anything is saved. Only the text you type is sent, and nothing is stored until you approve it.
 
 ### Follows every application, with evidence
 
 Each opportunity moves through a fixed set of statuses: new, preparing, ready for review, submitted, interview, offer, with skipped, withdrawn and rejected as ways out. Moves that make no sense are not allowed.
 
 <p align="center">
-  <img src="assets/record-submission.png" alt="Recording a submission with its evidence" width="78%">
+  <img src="assets/record-submission.png" alt="Recording an application together with its evidence" width="78%">
 </p>
 
 An application cannot be marked as submitted without proof. You attach a confirmation email, a link, a screenshot path or a note, and the date. The record stays attached to the opportunity, so you can always answer "did I apply, and how do I know?".
